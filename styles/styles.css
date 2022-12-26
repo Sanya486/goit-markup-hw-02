@@ -1,3 +1,16 @@
+/* variables */
+:root {
+    /* navy blue */
+    --headline-color: #2E2F42;
+    /* slate */
+    --secondary-color: #434455;
+    /* iris */
+    --logo-style-color: #4D5AE5;
+}
+
+
+
+
 a {
     text-decoration: none;
 }
@@ -5,22 +18,56 @@ a {
     list-style: none;
 }
 
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
 /* logo */
 
 .logo-first-part {
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
-    color: #4D5AE5;
+    color:var(--logo-style-color);
 }
 
 .logo-second-part {
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
-    color: #2E2F42;
+    color: var(--headline-color);
+}
+/* Navigation */
+
+.navigation-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--headline-color);
+}
+
+.address-list { 
+}
+
+.address-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--secondary-color);
+    letter-spacing: 0.02em;
+}
+/* main */
+
+/* filter */
+
+.filter {
+}
+.filter-title {
+}
+
+.filter-item {
 }
