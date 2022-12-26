@@ -9,6 +9,7 @@
 
     --button-color: #404BBF;
     --logo-footer-color: #F4F4FD;
+    --simple-white:#fff
 
 }
 
@@ -37,8 +38,9 @@ a {
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
+    color: var(--secondary-color) ;
 }
 
 /* logo */
@@ -74,6 +76,8 @@ body {
     color: var(--logo-footer-color);
     text-transform: uppercase;
 }
+
+/* Portfolio page */
 /* Navigation */
 
 .navigation-list {
@@ -93,7 +97,6 @@ body {
 
 .address-item {
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--secondary-color);
@@ -115,6 +118,7 @@ body {
     color: #FFFFFF;
     background-color: var(--button-color);
     border-style: unset;
+    cursor: pointer;
 
 }
 .filter-item {
@@ -125,6 +129,7 @@ body {
     background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .examples-title {
@@ -136,7 +141,6 @@ body {
 }
 
 .example-type {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -147,9 +151,56 @@ body {
 }
 
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+}
+
+/* Main page */
+
+.headline-section {
+    background: var(--headline-color);
+}
+.headline-section-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--simple-white);
+}
+.headline-section-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--simple-white);
+    background-color: var(--logo-style-color);
+}
+
+/* Our Qualities */
+
+.title-secondary-level {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--headline-color);
+}
+.title-third-level {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--headline-color);
+}
+.paragraph{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
 }
