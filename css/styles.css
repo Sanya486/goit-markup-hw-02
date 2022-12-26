@@ -90,10 +90,17 @@ body {
 .active-page {
     color: var(--logo-style-color);
 }
-    
 
-.address-list { 
+.active-page:hover,
+.active-page:focus {
+    color: var(--secondary-color)
 }
+
+.other-page:hover,
+.other-page:focus {
+    color: var(--logo-style-color)
+}
+
 
 .address-item {
     font-style: normal;
@@ -101,6 +108,10 @@ body {
     line-height: 24px;
     color: var(--secondary-color);
     letter-spacing: 0.02em;
+}
+.address-item:hover,
+.address-item:focus {
+    color: var(--logo-style-color);
 }
 /* main */
 
@@ -119,7 +130,11 @@ body {
     background-color: var(--button-color);
     border-style: unset;
     cursor: pointer;
+}
 
+.filter-item-first:hover,
+.filter-item-first:focus {
+    background-color: var(--logo-style-color);
 }
 .filter-item {
     font-weight: 500;
@@ -130,6 +145,11 @@ body {
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.filter-item:hover,
+.filter-item:focus {
+    background-color: var(--simple-white);
 }
 
 .examples-title {
@@ -178,6 +198,10 @@ body {
     letter-spacing: 0.04em;
     color: var(--simple-white);
     background-color: var(--logo-style-color);
+}
+.headline-section-button:hover,
+.headline-section-button:focus {
+    color: var(--headline-color);
 }
 
 /* Our Qualities */
