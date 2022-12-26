@@ -1,3 +1,26 @@
-.title {
+a {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+/* logo */
+
+.logo-first-part {
+    font-family: 'Raleway';
     font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4D5AE5;
+}
+
+.logo-second-part {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2E2F42;
 }
