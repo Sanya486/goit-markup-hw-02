@@ -6,6 +6,10 @@
     --secondary-color: #434455;
     /* iris */
     --logo-style-color: #4D5AE5;
+
+    --button-color: #404BBF;
+    --logo-footer-color: #F4F4FD;
+
 }
 
 
@@ -18,6 +22,19 @@ a {
     list-style: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 body {
     font-family: 'Roboto';
@@ -27,17 +44,35 @@ body {
 /* logo */
 
 .logo-first-part {
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
+    letter-spacing: 0.03em;
     color:var(--logo-style-color);
+    text-transform: uppercase;
 }
 
 .logo-second-part {
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
+    letter-spacing: 0.03em;
     color: var(--headline-color);
+    text-transform: uppercase;
+}
+.logo-second-part-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--logo-footer-color);
+    text-transform: uppercase;
 }
 /* Navigation */
 
@@ -48,6 +83,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--headline-color);
 }
+.active-page {
+    color: var(--logo-style-color);
+}
+    
 
 .address-list { 
 }
@@ -69,5 +108,48 @@ body {
 .filter-title {
 }
 
+.filter-item-first {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: var(--button-color);
+    border-style: unset;
+
+}
 .filter-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--logo-style-color) ;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.examples-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--headline-color);
+}
+
+.example-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+.footer {
+    background-color: var(--headline-color)
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
 }
